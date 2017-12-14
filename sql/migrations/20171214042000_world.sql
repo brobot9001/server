@@ -3,9 +3,9 @@
 -CREATE PROCEDURE `add_migration`()
 -BEGIN
 -DECLARE v INT DEFAULT 1;
--SET v = (SELECT COUNT(*) FROM `migrations` WHERE `id`='2017121404200');
+-SET v = (SELECT COUNT(*) FROM `migrations` WHERE `id`='20171214042000');
 -IF v=0 THEN
--INSERT INTO `migrations` VALUES ('2017121404200');
+-INSERT INTO `migrations` VALUES ('20171214042000');
 --- Add your query below.
 -
 --- https://github.com/LightsHope/server/issues/204
